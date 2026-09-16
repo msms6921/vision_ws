@@ -1,0 +1,2 @@
+[console_scripts]
+detector_node = realsense_yolo_3d.detector_node:main

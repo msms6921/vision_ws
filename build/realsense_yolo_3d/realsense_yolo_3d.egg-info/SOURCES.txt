@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+launch/detector.launch.py
+realsense_yolo_3d/__init__.py
+realsense_yolo_3d/detector_node.py
+realsense_yolo_3d.egg-info/PKG-INFO
+realsense_yolo_3d.egg-info/SOURCES.txt
+realsense_yolo_3d.egg-info/dependency_links.txt
+realsense_yolo_3d.egg-info/entry_points.txt
+realsense_yolo_3d.egg-info/requires.txt
+realsense_yolo_3d.egg-info/top_level.txt
+realsense_yolo_3d.egg-info/zip-safe
+resource/realsense_yolo_3d

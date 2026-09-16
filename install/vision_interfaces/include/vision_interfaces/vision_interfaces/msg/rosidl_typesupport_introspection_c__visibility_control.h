@@ -1,0 +1,1 @@
+/home/msms/vision_ws/build/vision_interfaces/rosidl_typesupport_introspection_c/vision_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h

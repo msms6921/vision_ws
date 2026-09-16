@@ -1,0 +1,206 @@
+[0.112s] colcon DEBUG Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--event-handlers', 'console_direct+']
+[0.112s] colcon DEBUG Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=['console_direct+'], ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7cca3282a530>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7cca3282a020>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7cca3282a020>>)
+[0.437s] colcon.colcon_core.package_discovery Level 1 discover_packages(colcon_meta) check parameters
+[0.437s] colcon.colcon_core.package_discovery Level 1 discover_packages(recursive) check parameters
+[0.437s] colcon.colcon_core.package_discovery Level 1 discover_packages(ignore) check parameters
+[0.437s] colcon.colcon_core.package_discovery Level 1 discover_packages(path) check parameters
+[0.437s] colcon.colcon_core.package_discovery Level 1 discover_packages(colcon_meta) discover
+[0.437s] colcon.colcon_core.package_discovery Level 1 discover_packages(recursive) discover
+[0.437s] colcon.colcon_core.package_discovery INFO Crawling recursively for packages in '/home/msms/vision_ws'
+[0.437s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.437s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'ignore'
+[0.437s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'ignore_ament_install'
+[0.437s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['colcon_pkg']
+[0.437s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'colcon_pkg'
+[0.437s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['colcon_meta']
+[0.437s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'colcon_meta'
+[0.438s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['ros']
+[0.438s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'ros'
+[0.447s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['cmake', 'python']
+[0.447s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'cmake'
+[0.447s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'python'
+[0.447s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['python_setup_py']
+[0.447s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'python_setup_py'
+[0.447s] colcon.colcon_core.package_identification Level 1 _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.448s] colcon.colcon_core.package_identification Level 1 _identify(build) by extension 'ignore'
+[0.448s] colcon.colcon_core.package_identification Level 1 _identify(build) ignored
+[0.448s] colcon.colcon_core.package_identification Level 1 _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.448s] colcon.colcon_core.package_identification Level 1 _identify(install) by extension 'ignore'
+[0.448s] colcon.colcon_core.package_identification Level 1 _identify(install) ignored
+[0.448s] colcon.colcon_core.package_identification Level 1 _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.448s] colcon.colcon_core.package_identification Level 1 _identify(log) by extension 'ignore'
+[0.448s] colcon.colcon_core.package_identification Level 1 _identify(log) ignored
+[0.448s] colcon.colcon_core.package_identification Level 1 _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.448s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'ignore'
+[0.448s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'ignore_ament_install'
+[0.448s] colcon.colcon_core.package_identification Level 1 _identify(src) by extensions ['colcon_pkg']
+[0.448s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'colcon_pkg'
+[0.448s] colcon.colcon_core.package_identification Level 1 _identify(src) by extensions ['colcon_meta']
+[0.448s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'colcon_meta'
+[0.448s] colcon.colcon_core.package_identification Level 1 _identify(src) by extensions ['ros']
+[0.448s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'ros'
+[0.448s] colcon.colcon_core.package_identification Level 1 _identify(src) by extensions ['cmake', 'python']
+[0.448s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'cmake'
+[0.449s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'python'
+[0.449s] colcon.colcon_core.package_identification Level 1 _identify(src) by extensions ['python_setup_py']
+[0.449s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'python_setup_py'
+[0.449s] colcon.colcon_core.package_identification Level 1 _identify(src/realsense_yolo_3d) by extensions ['ignore', 'ignore_ament_install']
+[0.449s] colcon.colcon_core.package_identification Level 1 _identify(src/realsense_yolo_3d) by extension 'ignore'
+[0.449s] colcon.colcon_core.package_identification Level 1 _identify(src/realsense_yolo_3d) by extension 'ignore_ament_install'
+[0.449s] colcon.colcon_core.package_identification Level 1 _identify(src/realsense_yolo_3d) by extensions ['colcon_pkg']
+[0.449s] colcon.colcon_core.package_identification Level 1 _identify(src/realsense_yolo_3d) by extension 'colcon_pkg'
+[0.449s] colcon.colcon_core.package_identification Level 1 _identify(src/realsense_yolo_3d) by extensions ['colcon_meta']
+[0.449s] colcon.colcon_core.package_identification Level 1 _identify(src/realsense_yolo_3d) by extension 'colcon_meta'
+[0.449s] colcon.colcon_core.package_identification Level 1 _identify(src/realsense_yolo_3d) by extensions ['ros']
+[0.449s] colcon.colcon_core.package_identification Level 1 _identify(src/realsense_yolo_3d) by extension 'ros'
+[0.453s] colcon.colcon_core.package_identification DEBUG Package 'src/realsense_yolo_3d' with type 'ros.ament_python' and name 'realsense_yolo_3d'
+[0.453s] colcon.colcon_core.package_identification Level 1 _identify(src/vision_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.453s] colcon.colcon_core.package_identification Level 1 _identify(src/vision_interfaces) by extension 'ignore'
+[0.453s] colcon.colcon_core.package_identification Level 1 _identify(src/vision_interfaces) by extension 'ignore_ament_install'
+[0.453s] colcon.colcon_core.package_identification Level 1 _identify(src/vision_interfaces) by extensions ['colcon_pkg']
+[0.453s] colcon.colcon_core.package_identification Level 1 _identify(src/vision_interfaces) by extension 'colcon_pkg'
+[0.453s] colcon.colcon_core.package_identification Level 1 _identify(src/vision_interfaces) by extensions ['colcon_meta']
+[0.453s] colcon.colcon_core.package_identification Level 1 _identify(src/vision_interfaces) by extension 'colcon_meta'
+[0.453s] colcon.colcon_core.package_identification Level 1 _identify(src/vision_interfaces) by extensions ['ros']
+[0.453s] colcon.colcon_core.package_identification Level 1 _identify(src/vision_interfaces) by extension 'ros'
+[0.454s] colcon.colcon_core.package_identification DEBUG Package 'src/vision_interfaces' with type 'ros.ament_cmake' and name 'vision_interfaces'
+[0.454s] colcon.colcon_core.package_discovery Level 1 discover_packages(recursive) using defaults
+[0.454s] colcon.colcon_core.package_discovery Level 1 discover_packages(ignore) discover
+[0.454s] colcon.colcon_core.package_discovery Level 1 discover_packages(ignore) using defaults
+[0.454s] colcon.colcon_core.package_discovery Level 1 discover_packages(path) discover
+[0.454s] colcon.colcon_core.package_discovery Level 1 discover_packages(path) using defaults
+[0.471s] colcon.colcon_core.package_discovery Level 1 discover_packages(prefix_path) check parameters
+[0.471s] colcon.colcon_core.package_discovery Level 1 discover_packages(prefix_path) discover
+[0.475s] colcon.colcon_installed_package_information.package_discovery DEBUG Found 478 installed packages in /opt/ros/humble
+[0.477s] colcon.colcon_core.package_discovery Level 1 discover_packages(prefix_path) using defaults
+[0.532s] colcon.colcon_core.verb Level 5 set package 'vision_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.532s] colcon.colcon_core.verb Level 5 set package 'vision_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.532s] colcon.colcon_core.verb Level 5 set package 'vision_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.532s] colcon.colcon_core.verb Level 5 set package 'vision_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.532s] colcon.colcon_core.verb Level 5 set package 'vision_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.532s] colcon.colcon_core.verb Level 5 set package 'vision_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.532s] colcon.colcon_core.verb Level 5 set package 'vision_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.532s] colcon.colcon_core.verb Level 5 set package 'vision_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.532s] colcon.colcon_core.verb Level 5 set package 'vision_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.532s] colcon.colcon_core.verb DEBUG Building package 'vision_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/msms/vision_ws/build/vision_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/msms/vision_ws/install/vision_interfaces', 'merge_install': False, 'path': '/home/msms/vision_ws/src/vision_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.533s] colcon.colcon_core.verb Level 5 set package 'realsense_yolo_3d' build argument 'cmake_args' from command line to 'None'
+[0.533s] colcon.colcon_core.verb Level 5 set package 'realsense_yolo_3d' build argument 'cmake_target' from command line to 'None'
+[0.533s] colcon.colcon_core.verb Level 5 set package 'realsense_yolo_3d' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.533s] colcon.colcon_core.verb Level 5 set package 'realsense_yolo_3d' build argument 'cmake_clean_cache' from command line to 'False'
+[0.533s] colcon.colcon_core.verb Level 5 set package 'realsense_yolo_3d' build argument 'cmake_clean_first' from command line to 'False'
+[0.533s] colcon.colcon_core.verb Level 5 set package 'realsense_yolo_3d' build argument 'cmake_force_configure' from command line to 'False'
+[0.533s] colcon.colcon_core.verb Level 5 set package 'realsense_yolo_3d' build argument 'ament_cmake_args' from command line to 'None'
+[0.533s] colcon.colcon_core.verb Level 5 set package 'realsense_yolo_3d' build argument 'catkin_cmake_args' from command line to 'None'
+[0.533s] colcon.colcon_core.verb Level 5 set package 'realsense_yolo_3d' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.533s] colcon.colcon_core.verb DEBUG Building package 'realsense_yolo_3d' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/msms/vision_ws/build/realsense_yolo_3d', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/msms/vision_ws/install/realsense_yolo_3d', 'merge_install': False, 'path': '/home/msms/vision_ws/src/realsense_yolo_3d', 'symlink_install': True, 'test_result_base': None}
+[0.533s] colcon.colcon_core.executor INFO Executing jobs using 'parallel' executor
+[0.534s] colcon.colcon_parallel_executor.executor.parallel DEBUG run_until_complete
+[0.534s] colcon.colcon_ros.task.ament_cmake.build INFO Building ROS package in '/home/msms/vision_ws/src/vision_interfaces' with build type 'ament_cmake'
+[0.534s] colcon.colcon_cmake.task.cmake.build INFO Building CMake package in '/home/msms/vision_ws/src/vision_interfaces'
+[0.538s] colcon.colcon_core.plugin_system INFO Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.538s] colcon.colcon_core.shell INFO Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.538s] colcon.colcon_core.shell DEBUG Skip shell extension 'dsv' for command environment
+[0.545s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/home/msms/vision_ws/build/vision_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/msms/vision_ws/src/vision_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/msms/vision_ws/install/vision_interfaces
+[2.460s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/home/msms/vision_ws/build/vision_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/msms/vision_ws/src/vision_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/msms/vision_ws/install/vision_interfaces
+[2.461s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/home/msms/vision_ws/build/vision_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/msms/vision_ws/build/vision_interfaces -- -j12 -l12
+[5.386s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/home/msms/vision_ws/build/vision_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/msms/vision_ws/build/vision_interfaces -- -j12 -l12
+[5.397s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/home/msms/vision_ws/build/vision_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/msms/vision_ws/build/vision_interfaces
+[6.303s] colcon.colcon_core.environment Level 1 create_environment_scripts_only(vision_interfaces)
+[6.304s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/home/msms/vision_ws/build/vision_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/msms/vision_ws/build/vision_interfaces
+[6.308s] colcon.colcon_core.environment Level 1 checking '/home/msms/vision_ws/install/vision_interfaces' for CMake module files
+[6.309s] colcon.colcon_core.environment Level 1 checking '/home/msms/vision_ws/install/vision_interfaces' for CMake config files
+[6.310s] colcon.colcon_core.shell Level 1 create_environment_hook('vision_interfaces', 'cmake_prefix_path')
+[6.310s] colcon.colcon_core.shell INFO Creating environment hook '/home/msms/vision_ws/install/vision_interfaces/share/vision_interfaces/hook/cmake_prefix_path.ps1'
+[6.311s] colcon.colcon_core.shell INFO Creating environment descriptor '/home/msms/vision_ws/install/vision_interfaces/share/vision_interfaces/hook/cmake_prefix_path.dsv'
+[6.311s] colcon.colcon_core.shell INFO Creating environment hook '/home/msms/vision_ws/install/vision_interfaces/share/vision_interfaces/hook/cmake_prefix_path.sh'
+[6.312s] colcon.colcon_core.environment Level 1 checking '/home/msms/vision_ws/install/vision_interfaces/lib'
+[6.313s] colcon.colcon_core.shell Level 1 create_environment_hook('vision_interfaces', 'ld_library_path_lib')
+[6.313s] colcon.colcon_core.shell INFO Creating environment hook '/home/msms/vision_ws/install/vision_interfaces/share/vision_interfaces/hook/ld_library_path_lib.ps1'
+[6.313s] colcon.colcon_core.shell INFO Creating environment descriptor '/home/msms/vision_ws/install/vision_interfaces/share/vision_interfaces/hook/ld_library_path_lib.dsv'
+[6.313s] colcon.colcon_core.shell INFO Creating environment hook '/home/msms/vision_ws/install/vision_interfaces/share/vision_interfaces/hook/ld_library_path_lib.sh'
+[6.314s] colcon.colcon_core.environment Level 1 checking '/home/msms/vision_ws/install/vision_interfaces/bin'
+[6.314s] colcon.colcon_core.environment Level 1 checking '/home/msms/vision_ws/install/vision_interfaces/lib/pkgconfig/vision_interfaces.pc'
+[6.314s] colcon.colcon_core.environment Level 1 checking '/home/msms/vision_ws/install/vision_interfaces/lib/python3.10/site-packages'
+[6.314s] colcon.colcon_core.environment Level 1 checking '/home/msms/vision_ws/install/vision_interfaces/bin'
+[6.314s] colcon.colcon_core.shell INFO Creating package script '/home/msms/vision_ws/install/vision_interfaces/share/vision_interfaces/package.ps1'
+[6.316s] colcon.colcon_core.shell INFO Creating package descriptor '/home/msms/vision_ws/install/vision_interfaces/share/vision_interfaces/package.dsv'
+[6.317s] colcon.colcon_core.shell INFO Creating package script '/home/msms/vision_ws/install/vision_interfaces/share/vision_interfaces/package.sh'
+[6.318s] colcon.colcon_core.shell INFO Creating package script '/home/msms/vision_ws/install/vision_interfaces/share/vision_interfaces/package.bash'
+[6.318s] colcon.colcon_core.shell INFO Creating package script '/home/msms/vision_ws/install/vision_interfaces/share/vision_interfaces/package.zsh'
+[6.319s] colcon.colcon_core.environment Level 1 create_file_with_runtime_dependencies(/home/msms/vision_ws/install/vision_interfaces/share/colcon-core/packages/vision_interfaces)
+[6.320s] colcon.colcon_core.environment Level 1 create_environment_scripts_only(vision_interfaces)
+[6.320s] colcon.colcon_core.environment Level 1 checking '/home/msms/vision_ws/install/vision_interfaces' for CMake module files
+[6.321s] colcon.colcon_core.environment Level 1 checking '/home/msms/vision_ws/install/vision_interfaces' for CMake config files
+[6.321s] colcon.colcon_core.shell Level 1 create_environment_hook('vision_interfaces', 'cmake_prefix_path')
+[6.322s] colcon.colcon_core.shell INFO Creating environment hook '/home/msms/vision_ws/install/vision_interfaces/share/vision_interfaces/hook/cmake_prefix_path.ps1'
+[6.322s] colcon.colcon_core.shell INFO Creating environment descriptor '/home/msms/vision_ws/install/vision_interfaces/share/vision_interfaces/hook/cmake_prefix_path.dsv'
+[6.322s] colcon.colcon_core.shell INFO Creating environment hook '/home/msms/vision_ws/install/vision_interfaces/share/vision_interfaces/hook/cmake_prefix_path.sh'
+[6.323s] colcon.colcon_core.environment Level 1 checking '/home/msms/vision_ws/install/vision_interfaces/lib'
+[6.323s] colcon.colcon_core.shell Level 1 create_environment_hook('vision_interfaces', 'ld_library_path_lib')
+[6.324s] colcon.colcon_core.shell INFO Creating environment hook '/home/msms/vision_ws/install/vision_interfaces/share/vision_interfaces/hook/ld_library_path_lib.ps1'
+[6.324s] colcon.colcon_core.shell INFO Creating environment descriptor '/home/msms/vision_ws/install/vision_interfaces/share/vision_interfaces/hook/ld_library_path_lib.dsv'
+[6.324s] colcon.colcon_core.shell INFO Creating environment hook '/home/msms/vision_ws/install/vision_interfaces/share/vision_interfaces/hook/ld_library_path_lib.sh'
+[6.325s] colcon.colcon_core.environment Level 1 checking '/home/msms/vision_ws/install/vision_interfaces/bin'
+[6.325s] colcon.colcon_core.environment Level 1 checking '/home/msms/vision_ws/install/vision_interfaces/lib/pkgconfig/vision_interfaces.pc'
+[6.325s] colcon.colcon_core.environment Level 1 checking '/home/msms/vision_ws/install/vision_interfaces/lib/python3.10/site-packages'
+[6.325s] colcon.colcon_core.environment Level 1 checking '/home/msms/vision_ws/install/vision_interfaces/bin'
+[6.326s] colcon.colcon_core.shell INFO Creating package script '/home/msms/vision_ws/install/vision_interfaces/share/vision_interfaces/package.ps1'
+[6.327s] colcon.colcon_core.shell INFO Creating package descriptor '/home/msms/vision_ws/install/vision_interfaces/share/vision_interfaces/package.dsv'
+[6.327s] colcon.colcon_core.shell INFO Creating package script '/home/msms/vision_ws/install/vision_interfaces/share/vision_interfaces/package.sh'
+[6.327s] colcon.colcon_core.shell INFO Creating package script '/home/msms/vision_ws/install/vision_interfaces/share/vision_interfaces/package.bash'
+[6.328s] colcon.colcon_core.shell INFO Creating package script '/home/msms/vision_ws/install/vision_interfaces/share/vision_interfaces/package.zsh'
+[6.328s] colcon.colcon_core.environment Level 1 create_file_with_runtime_dependencies(/home/msms/vision_ws/install/vision_interfaces/share/colcon-core/packages/vision_interfaces)
+[6.329s] colcon.colcon_ros.task.ament_python.build INFO Building ROS package in '/home/msms/vision_ws/src/realsense_yolo_3d' with build type 'ament_python'
+[6.329s] colcon.colcon_core.shell Level 1 create_environment_hook('realsense_yolo_3d', 'ament_prefix_path')
+[6.329s] colcon.colcon_core.shell INFO Creating environment hook '/home/msms/vision_ws/install/realsense_yolo_3d/share/realsense_yolo_3d/hook/ament_prefix_path.ps1'
+[6.330s] colcon.colcon_core.shell INFO Creating environment descriptor '/home/msms/vision_ws/install/realsense_yolo_3d/share/realsense_yolo_3d/hook/ament_prefix_path.dsv'
+[6.330s] colcon.colcon_core.shell INFO Creating environment hook '/home/msms/vision_ws/install/realsense_yolo_3d/share/realsense_yolo_3d/hook/ament_prefix_path.sh'
+[6.331s] colcon.colcon_core.shell INFO Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.331s] colcon.colcon_core.shell DEBUG Skip shell extension 'dsv' for command environment
+[6.690s] colcon.colcon_core.task.python.build INFO Building Python package in '/home/msms/vision_ws/src/realsense_yolo_3d'
+[6.691s] colcon.colcon_core.shell INFO Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.691s] colcon.colcon_core.shell DEBUG Skip shell extension 'dsv' for command environment
+[7.204s] colcon.colcon_core.task.python.build DEBUG Available setuptools commands: dist_info, build_py, extract_messages, compile_catalog, check, upload, develop, init_catalog, install_headers, install_data, install_scripts, install_egg_info, bdist_wheel, upload_docs, setopt, rotate, symlink_data, bdist, build, install, bdist_egg, bdist_rpm, build_ext, build_clib, saveopts, egg_info, easy_install, clean, register, alias, bdist_dumb, sdist, build_scripts, install_lib, test, update_catalog
+[7.565s] colcon.colcon_core.task.python.build DEBUG Available setuptools 'develop' options: --install-dir, --quiet, --multi-version, --build-directory, --prefix, --egg-path, --editable, --dry-run, --script-dir, --find-links, --site-dirs, --upgrade, --uninstall, --help, --always-unzip, --user, --index-url, --no-user-cfg, --optimize, --no-find-links, --version, --allow-hosts, --local-snapshots-ok, --zip-ok, --verbose, --no-deps, --always-copy, --record, --exclude-scripts
+[7.567s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/home/msms/vision_ws/build/realsense_yolo_3d': AMENT_PREFIX_PATH=/home/msms/vision_ws/install/vision_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/msms/vision_ws/install/vision_interfaces LD_LIBRARY_PATH=/home/msms/vision_ws/install/vision_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/msms/vision_ws/build/realsense_yolo_3d/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/msms/vision_ws/install/realsense_yolo_3d/lib/python3.10/site-packages:/home/msms/vision_ws/install/vision_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/msms/vision_ws/build/realsense_yolo_3d/build --no-deps symlink_data
+[8.204s] colcon.colcon_core.shell Level 1 create_environment_hook('realsense_yolo_3d', 'pythonpath_develop')
+[8.205s] colcon.colcon_core.shell INFO Creating environment hook '/home/msms/vision_ws/build/realsense_yolo_3d/share/realsense_yolo_3d/hook/pythonpath_develop.ps1'
+[8.205s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/home/msms/vision_ws/build/realsense_yolo_3d' returned '0': AMENT_PREFIX_PATH=/home/msms/vision_ws/install/vision_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/msms/vision_ws/install/vision_interfaces LD_LIBRARY_PATH=/home/msms/vision_ws/install/vision_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/msms/vision_ws/build/realsense_yolo_3d/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/msms/vision_ws/install/realsense_yolo_3d/lib/python3.10/site-packages:/home/msms/vision_ws/install/vision_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/msms/vision_ws/build/realsense_yolo_3d/build --no-deps symlink_data
+[8.206s] colcon.colcon_core.shell INFO Creating environment descriptor '/home/msms/vision_ws/build/realsense_yolo_3d/share/realsense_yolo_3d/hook/pythonpath_develop.dsv'
+[8.206s] colcon.colcon_core.shell INFO Creating environment hook '/home/msms/vision_ws/build/realsense_yolo_3d/share/realsense_yolo_3d/hook/pythonpath_develop.sh'
+[8.206s] colcon.colcon_core.environment Level 1 checking '/home/msms/vision_ws/install/realsense_yolo_3d' for CMake module files
+[8.207s] colcon.colcon_core.environment Level 1 checking '/home/msms/vision_ws/install/realsense_yolo_3d' for CMake config files
+[8.207s] colcon.colcon_core.environment Level 1 checking '/home/msms/vision_ws/install/realsense_yolo_3d/lib'
+[8.207s] colcon.colcon_core.environment Level 1 checking '/home/msms/vision_ws/install/realsense_yolo_3d/bin'
+[8.207s] colcon.colcon_core.environment Level 1 checking '/home/msms/vision_ws/install/realsense_yolo_3d/lib/pkgconfig/realsense_yolo_3d.pc'
+[8.207s] colcon.colcon_core.environment Level 1 checking '/home/msms/vision_ws/install/realsense_yolo_3d/lib/python3.10/site-packages'
+[8.207s] colcon.colcon_core.shell Level 1 create_environment_hook('realsense_yolo_3d', 'pythonpath')
+[8.208s] colcon.colcon_core.shell INFO Creating environment hook '/home/msms/vision_ws/install/realsense_yolo_3d/share/realsense_yolo_3d/hook/pythonpath.ps1'
+[8.208s] colcon.colcon_core.shell INFO Creating environment descriptor '/home/msms/vision_ws/install/realsense_yolo_3d/share/realsense_yolo_3d/hook/pythonpath.dsv'
+[8.208s] colcon.colcon_core.shell INFO Creating environment hook '/home/msms/vision_ws/install/realsense_yolo_3d/share/realsense_yolo_3d/hook/pythonpath.sh'
+[8.209s] colcon.colcon_core.environment Level 1 checking '/home/msms/vision_ws/install/realsense_yolo_3d/bin'
+[8.209s] colcon.colcon_core.environment Level 1 create_environment_scripts_only(realsense_yolo_3d)
+[8.209s] colcon.colcon_core.shell INFO Creating package script '/home/msms/vision_ws/install/realsense_yolo_3d/share/realsense_yolo_3d/package.ps1'
+[8.210s] colcon.colcon_core.shell INFO Creating package descriptor '/home/msms/vision_ws/install/realsense_yolo_3d/share/realsense_yolo_3d/package.dsv'
+[8.210s] colcon.colcon_core.shell INFO Creating package script '/home/msms/vision_ws/install/realsense_yolo_3d/share/realsense_yolo_3d/package.sh'
+[8.211s] colcon.colcon_core.shell INFO Creating package script '/home/msms/vision_ws/install/realsense_yolo_3d/share/realsense_yolo_3d/package.bash'
+[8.211s] colcon.colcon_core.shell INFO Creating package script '/home/msms/vision_ws/install/realsense_yolo_3d/share/realsense_yolo_3d/package.zsh'
+[8.211s] colcon.colcon_core.environment Level 1 create_file_with_runtime_dependencies(/home/msms/vision_ws/install/realsense_yolo_3d/share/colcon-core/packages/realsense_yolo_3d)
+[8.211s] colcon.colcon_parallel_executor.executor.parallel DEBUG closing loop
+[8.212s] colcon.colcon_parallel_executor.executor.parallel DEBUG loop closed
+[8.212s] colcon.colcon_parallel_executor.executor.parallel DEBUG run_until_complete finished with '0'
+[8.212s] colcon.colcon_core.event_reactor DEBUG joining thread
+[8.217s] colcon.colcon_core.plugin_system INFO Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[8.217s] colcon.colcon_core.plugin_system INFO Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[8.218s] colcon.colcon_notification.desktop_notification INFO Sending desktop notification using 'notify2'
+[8.244s] colcon.colcon_core.event_reactor DEBUG joined thread
+[8.245s] colcon.colcon_core.shell INFO Creating prefix script '/home/msms/vision_ws/install/local_setup.ps1'
+[8.247s] colcon.colcon_core.shell INFO Creating prefix util module '/home/msms/vision_ws/install/_local_setup_util_ps1.py'
+[8.250s] colcon.colcon_core.shell INFO Creating prefix chain script '/home/msms/vision_ws/install/setup.ps1'
+[8.252s] colcon.colcon_core.shell INFO Creating prefix script '/home/msms/vision_ws/install/local_setup.sh'
+[8.254s] colcon.colcon_core.shell INFO Creating prefix util module '/home/msms/vision_ws/install/_local_setup_util_sh.py'
+[8.255s] colcon.colcon_core.shell INFO Creating prefix chain script '/home/msms/vision_ws/install/setup.sh'
+[8.257s] colcon.colcon_core.shell INFO Creating prefix script '/home/msms/vision_ws/install/local_setup.bash'
+[8.258s] colcon.colcon_core.shell INFO Creating prefix chain script '/home/msms/vision_ws/install/setup.bash'
+[8.260s] colcon.colcon_core.shell INFO Creating prefix script '/home/msms/vision_ws/install/local_setup.zsh'
+[8.261s] colcon.colcon_core.shell INFO Creating prefix chain script '/home/msms/vision_ws/install/setup.zsh'

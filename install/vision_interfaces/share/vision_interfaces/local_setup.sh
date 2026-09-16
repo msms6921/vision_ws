@@ -1,0 +1,1 @@
+/home/msms/vision_ws/build/vision_interfaces/ament_cmake_environment_hooks/local_setup.sh

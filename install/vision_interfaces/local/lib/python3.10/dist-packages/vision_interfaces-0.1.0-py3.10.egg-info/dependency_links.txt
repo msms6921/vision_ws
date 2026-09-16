@@ -1,0 +1,1 @@
+/home/msms/vision_ws/build/vision_interfaces/ament_cmake_python/vision_interfaces/vision_interfaces.egg-info/dependency_links.txt

@@ -1,0 +1,1 @@
+/home/msms/vision_ws/build/vision_interfaces/rosidl_generator_rs/vision_interfaces/rust/src/lib.rs

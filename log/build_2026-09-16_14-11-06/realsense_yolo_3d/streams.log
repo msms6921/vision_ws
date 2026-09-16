@@ -1,0 +1,26 @@
+[1.237s] Invoking command in '/home/msms/vision_ws/build/realsense_yolo_3d': AMENT_PREFIX_PATH=/home/msms/vision_ws/install/vision_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/msms/vision_ws/install/vision_interfaces LD_LIBRARY_PATH=/home/msms/vision_ws/install/vision_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/msms/vision_ws/build/realsense_yolo_3d/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/msms/vision_ws/install/realsense_yolo_3d/lib/python3.10/site-packages:/home/msms/vision_ws/install/vision_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/msms/vision_ws/build/realsense_yolo_3d/build --no-deps symlink_data
+[1.575s] running develop
+[1.836s] running egg_info
+[1.836s] creating realsense_yolo_3d.egg-info
+[1.837s] writing realsense_yolo_3d.egg-info/PKG-INFO
+[1.837s] writing dependency_links to realsense_yolo_3d.egg-info/dependency_links.txt
+[1.837s] writing entry points to realsense_yolo_3d.egg-info/entry_points.txt
+[1.837s] writing requirements to realsense_yolo_3d.egg-info/requires.txt
+[1.837s] writing top-level names to realsense_yolo_3d.egg-info/top_level.txt
+[1.838s] writing manifest file 'realsense_yolo_3d.egg-info/SOURCES.txt'
+[1.840s] reading manifest file 'realsense_yolo_3d.egg-info/SOURCES.txt'
+[1.841s] writing manifest file 'realsense_yolo_3d.egg-info/SOURCES.txt'
+[1.843s] running build_ext
+[1.843s] Creating /home/msms/vision_ws/install/realsense_yolo_3d/lib/python3.10/site-packages/realsense-yolo-3d.egg-link (link to .)
+[1.844s] Installing detector_node script to /home/msms/vision_ws/install/realsense_yolo_3d/lib/realsense_yolo_3d
+[1.844s] 
+[1.845s] Installed /home/msms/vision_ws/build/realsense_yolo_3d
+[1.845s] running symlink_data
+[1.845s] creating /home/msms/vision_ws/install/realsense_yolo_3d/share/ament_index
+[1.845s] creating /home/msms/vision_ws/install/realsense_yolo_3d/share/ament_index/resource_index
+[1.845s] creating /home/msms/vision_ws/install/realsense_yolo_3d/share/ament_index/resource_index/packages
+[1.846s] symbolically linking /home/msms/vision_ws/build/realsense_yolo_3d/resource/realsense_yolo_3d -> /home/msms/vision_ws/install/realsense_yolo_3d/share/ament_index/resource_index/packages
+[1.846s] symbolically linking /home/msms/vision_ws/build/realsense_yolo_3d/package.xml -> /home/msms/vision_ws/install/realsense_yolo_3d/share/realsense_yolo_3d
+[1.846s] creating /home/msms/vision_ws/install/realsense_yolo_3d/share/realsense_yolo_3d/launch
+[1.846s] symbolically linking /home/msms/vision_ws/build/realsense_yolo_3d/launch/detector.launch.py -> /home/msms/vision_ws/install/realsense_yolo_3d/share/realsense_yolo_3d/launch
+[1.876s] Invoked command in '/home/msms/vision_ws/build/realsense_yolo_3d' returned '0': AMENT_PREFIX_PATH=/home/msms/vision_ws/install/vision_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/msms/vision_ws/install/vision_interfaces LD_LIBRARY_PATH=/home/msms/vision_ws/install/vision_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/msms/vision_ws/build/realsense_yolo_3d/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/msms/vision_ws/install/realsense_yolo_3d/lib/python3.10/site-packages:/home/msms/vision_ws/install/vision_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/msms/vision_ws/build/realsense_yolo_3d/build --no-deps symlink_data

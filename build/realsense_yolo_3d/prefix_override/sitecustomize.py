@@ -1,0 +1,4 @@
+import sys
+if sys.prefix == '/usr':
+    sys.real_prefix = sys.prefix
+    sys.prefix = sys.exec_prefix = '/home/msms/vision_ws/install/realsense_yolo_3d'

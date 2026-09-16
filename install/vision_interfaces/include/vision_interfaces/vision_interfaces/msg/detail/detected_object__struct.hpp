@@ -1,0 +1,1 @@
+/home/msms/vision_ws/build/vision_interfaces/rosidl_generator_cpp/vision_interfaces/msg/detail/detected_object__struct.hpp

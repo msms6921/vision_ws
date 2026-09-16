@@ -1,0 +1,1 @@
+/home/msms/vision_ws/src/vision_interfaces/msg/DetectedObject.msg

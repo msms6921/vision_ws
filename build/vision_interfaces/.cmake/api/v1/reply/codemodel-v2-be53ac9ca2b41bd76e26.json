@@ -1,0 +1,258 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-45cc95d06f3a88533d33.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						18
+					]
+				},
+				{
+					"build" : "vision_interfaces__py",
+					"jsonFile" : "directory-vision_interfaces__py-7e52adc74e0969191409.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/msms/vision_ws/build/vision_interfaces/vision_interfaces__py",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "vision_interfaces__rs",
+					"jsonFile" : "directory-vision_interfaces__rs-5598dc24fa70d08b5879.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/msms/vision_ws/build/vision_interfaces/vision_interfaces__rs",
+					"targetIndexes" : 
+					[
+						17
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "vision_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_vision_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_vision_interfaces_egg-39f1cdc697631943c196.json",
+					"name" : "ament_cmake_python_build_vision_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_vision_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_vision_interfaces-83d6c12a188695e8d785.json",
+					"name" : "ament_cmake_python_symlink_vision_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-82812f554e1905deec40.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vision_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vision_interfaces-16fc3654eb0e66d2a5c1.json",
+					"name" : "vision_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vision_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vision_interfaces__cpp-5b9c495a7e77d5068064.json",
+					"name" : "vision_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "vision_interfaces__py::@53fd3a823aa7d277b7a2",
+					"jsonFile" : "target-vision_interfaces__py-f0c0ecef31b74f4f7992.json",
+					"name" : "vision_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vision_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vision_interfaces__rosidl_generator_c-37a8fdf365fcaedb704e.json",
+					"name" : "vision_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vision_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vision_interfaces__rosidl_generator_py-f3b7c4e16b0ee17aff37.json",
+					"name" : "vision_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vision_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vision_interfaces__rosidl_typesupport_c-430bd15ff7a48803054d.json",
+					"name" : "vision_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vision_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vision_interfaces__rosidl_typesupport_c__pyext-f4483daa1cad91d1ca22.json",
+					"name" : "vision_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vision_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vision_interfaces__rosidl_typesupport_cpp-fde8b1ff828adc08a69e.json",
+					"name" : "vision_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vision_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vision_interfaces__rosidl_typesupport_fastrtps_c-b30d9d97099220812305.json",
+					"name" : "vision_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vision_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vision_interfaces__rosidl_typesupport_fastrtps_c__pyext-05a813e4b1996abfd2bd.json",
+					"name" : "vision_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vision_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vision_interfaces__rosidl_typesupport_fastrtps_cpp-35102e3d9189017dcc0c.json",
+					"name" : "vision_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vision_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vision_interfaces__rosidl_typesupport_introspection_c-2d90ffb398f273a34560.json",
+					"name" : "vision_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vision_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vision_interfaces__rosidl_typesupport_introspection_c__pyext-9b1d0792ca29e6b69592.json",
+					"name" : "vision_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vision_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vision_interfaces__rosidl_typesupport_introspection_cpp-72dd7f87a53049a7e81d.json",
+					"name" : "vision_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "vision_interfaces__rs::@c4048558ba9ea1be7b96",
+					"jsonFile" : "target-vision_interfaces__rs-0b6239214f9c0eefe3d1.json",
+					"name" : "vision_interfaces__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vision_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vision_interfaces_uninstall-bee9ba67afb60e289787.json",
+					"name" : "vision_interfaces_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/msms/vision_ws/build/vision_interfaces",
+		"source" : "/home/msms/vision_ws/src/vision_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

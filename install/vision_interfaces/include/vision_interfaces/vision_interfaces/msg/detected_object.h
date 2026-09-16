@@ -1,0 +1,1 @@
+/home/msms/vision_ws/build/vision_interfaces/rosidl_generator_c/vision_interfaces/msg/detected_object.h

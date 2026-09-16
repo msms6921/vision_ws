@@ -1,0 +1,1 @@
+/home/msms/vision_ws/build/vision_interfaces/rosidl_generator_py/vision_interfaces/msg/_detected_object_array_s.c

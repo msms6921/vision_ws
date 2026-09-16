@@ -1,0 +1,1 @@
+/home/msms/vision_ws/build/vision_interfaces/rosidl_typesupport_introspection_cpp/vision_interfaces/msg/detail/detected_object_array__rosidl_typesupport_introspection_cpp.hpp

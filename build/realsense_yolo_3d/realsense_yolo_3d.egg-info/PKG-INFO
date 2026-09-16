@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: realsense_yolo_3d
+Version: 0.1.0
+Summary: YOLO and RealSense aligned-depth 3D detector.
+Maintainer: msms
+Maintainer-email: msms@todo.todo
+License: Apache-2.0
+Requires-Dist: setuptools
+Dynamic: license
+Dynamic: maintainer
+Dynamic: maintainer-email
+Dynamic: requires-dist
+Dynamic: summary

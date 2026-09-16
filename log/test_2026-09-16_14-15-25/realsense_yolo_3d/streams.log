@@ -1,0 +1,7 @@
+[0.256s] Invoking command in '/home/msms/vision_ws/src/realsense_yolo_3d': AMENT_PREFIX_PATH=/home/msms/vision_ws/install/realsense_yolo_3d:/home/msms/vision_ws/install/vision_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/msms/vision_ws/install/vision_interfaces LD_LIBRARY_PATH=/home/msms/vision_ws/install/vision_interfaces/lib:${LD_LIBRARY_PATH} PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/msms/vision_ws/build/realsense_yolo_3d:/home/msms/vision_ws/install/realsense_yolo_3d/lib/python3.10/site-packages:/home/msms/vision_ws/install/vision_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -m unittest -v
+[0.297s] 
+[0.297s] ----------------------------------------------------------------------
+[0.297s] Ran 0 tests in 0.000s
+[0.297s] 
+[0.298s] OK
+[0.305s] Invoked command in '/home/msms/vision_ws/src/realsense_yolo_3d' returned '0': AMENT_PREFIX_PATH=/home/msms/vision_ws/install/realsense_yolo_3d:/home/msms/vision_ws/install/vision_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/msms/vision_ws/install/vision_interfaces LD_LIBRARY_PATH=/home/msms/vision_ws/install/vision_interfaces/lib:${LD_LIBRARY_PATH} PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/msms/vision_ws/build/realsense_yolo_3d:/home/msms/vision_ws/install/realsense_yolo_3d/lib/python3.10/site-packages:/home/msms/vision_ws/install/vision_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -m unittest -v

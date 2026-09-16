@@ -1,0 +1,2 @@
+# C3k2 is used by the supplied /home/msms/Downloads/best.pt checkpoint.
+ultralytics>=8.3.0,<9

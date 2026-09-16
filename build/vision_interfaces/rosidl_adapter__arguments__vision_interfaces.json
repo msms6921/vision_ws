@@ -1,0 +1,7 @@
+{
+  "package_name": "vision_interfaces",
+  "non_idl_tuples": [
+    "/home/msms/vision_ws/src/vision_interfaces:msg/DetectedObject.msg",
+    "/home/msms/vision_ws/src/vision_interfaces:msg/DetectedObjectArray.msg"
+  ]
+}

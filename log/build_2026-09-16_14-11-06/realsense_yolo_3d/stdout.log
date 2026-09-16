@@ -1,0 +1,24 @@
+running develop
+running egg_info
+creating realsense_yolo_3d.egg-info
+writing realsense_yolo_3d.egg-info/PKG-INFO
+writing dependency_links to realsense_yolo_3d.egg-info/dependency_links.txt
+writing entry points to realsense_yolo_3d.egg-info/entry_points.txt
+writing requirements to realsense_yolo_3d.egg-info/requires.txt
+writing top-level names to realsense_yolo_3d.egg-info/top_level.txt
+writing manifest file 'realsense_yolo_3d.egg-info/SOURCES.txt'
+reading manifest file 'realsense_yolo_3d.egg-info/SOURCES.txt'
+writing manifest file 'realsense_yolo_3d.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/msms/vision_ws/install/realsense_yolo_3d/lib/python3.10/site-packages/realsense-yolo-3d.egg-link (link to .)
+Installing detector_node script to /home/msms/vision_ws/install/realsense_yolo_3d/lib/realsense_yolo_3d
+
+Installed /home/msms/vision_ws/build/realsense_yolo_3d
+running symlink_data
+creating /home/msms/vision_ws/install/realsense_yolo_3d/share/ament_index
+creating /home/msms/vision_ws/install/realsense_yolo_3d/share/ament_index/resource_index
+creating /home/msms/vision_ws/install/realsense_yolo_3d/share/ament_index/resource_index/packages
+symbolically linking /home/msms/vision_ws/build/realsense_yolo_3d/resource/realsense_yolo_3d -> /home/msms/vision_ws/install/realsense_yolo_3d/share/ament_index/resource_index/packages
+symbolically linking /home/msms/vision_ws/build/realsense_yolo_3d/package.xml -> /home/msms/vision_ws/install/realsense_yolo_3d/share/realsense_yolo_3d
+creating /home/msms/vision_ws/install/realsense_yolo_3d/share/realsense_yolo_3d/launch
+symbolically linking /home/msms/vision_ws/build/realsense_yolo_3d/launch/detector.launch.py -> /home/msms/vision_ws/install/realsense_yolo_3d/share/realsense_yolo_3d/launch

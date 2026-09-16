@@ -1,0 +1,4 @@
+Invoking command in '/home/msms/vision_ws/build/vision_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/msms/vision_ws/build/vision_interfaces -- -j12 -l12
+Invoked command in '/home/msms/vision_ws/build/vision_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/msms/vision_ws/build/vision_interfaces -- -j12 -l12
+Invoking command in '/home/msms/vision_ws/build/vision_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/msms/vision_ws/build/vision_interfaces
+Invoked command in '/home/msms/vision_ws/build/vision_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/msms/vision_ws/build/vision_interfaces

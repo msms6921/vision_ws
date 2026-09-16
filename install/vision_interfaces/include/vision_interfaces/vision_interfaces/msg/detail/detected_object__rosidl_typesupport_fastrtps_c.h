@@ -1,0 +1,1 @@
+/home/msms/vision_ws/build/vision_interfaces/rosidl_typesupport_fastrtps_c/vision_interfaces/msg/detail/detected_object__rosidl_typesupport_fastrtps_c.h
